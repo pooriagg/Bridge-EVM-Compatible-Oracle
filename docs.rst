@@ -26,6 +26,8 @@ Will lock your matic in the smart contract (oracle) and an equal amount of that 
 Unlock Matic
 ================
 
+.. code-block:: solidity
+
     function unlockEther(uint256 _amount) external;
 
 Will burn Wrapped-Matic to unlock, locked amount ``_amount`` of Matic in the polygon chain.
